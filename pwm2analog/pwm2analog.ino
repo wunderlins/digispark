@@ -12,7 +12,7 @@
  */
 
 #define PIN_LED 1
-#define PIN_PPMINT 0 // pin 3
+#define PIN_PPMINT 0 // pin 3 ??
 #define PPM_MAX 2000
 #define PPM_MIN 1000
 #define ANALOG_OUT_PIN 5

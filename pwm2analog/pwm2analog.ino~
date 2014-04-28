@@ -1,7 +1,14 @@
 /**
  * Convert a PPM signal to an analog output
  * 
- * (c) 2014, Simon Wunderlin, <swunderlin()gmailDOTcom>
+ * Convert a PWM signal to analog
+ *
+ * Expecting a single channel value > 1000ns and < 2000ns. The result shall be
+ * min: 0V, max 5V. RSSI is expected that way by APM on an analog 5V pin.
+ *
+ * This code is written for a Digispark.
+ *
+ * (c) 2014, Simon Wunderlin, <swunderlin()gmai1:com>
  */
 
 #define PIN_LED 1
